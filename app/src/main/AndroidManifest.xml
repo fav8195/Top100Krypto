@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="by.fav8195.top100krypto">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,20 +14,23 @@
         <activity
             android:name=".activities.AboutActivity"
             android:parentActivityName=".MainActivity">
+
             <!-- Привязываем родиетля -->
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Подключение рекламных баннеров.
-        тут ИД приложения -->
+        <!--
+ Подключение рекламных баннеров.
+        тут ИД приложения
+        -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4333726404613823~8353205302"/><!--"ca-app-pub-4811061307527681~8427564832"/>-->
+            android:value="ca-app-pub-4333726404613823~8353205302" />
     </application>
 
 </manifest>
