@@ -27,7 +27,7 @@
         тут ИД приложения -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4333726404613823~8353205302"/>
+            android:value="ca-app-pub-4333726404613823~8353205302"/><!--"ca-app-pub-4811061307527681~8427564832"/>-->
     </application>
 
 </manifest>

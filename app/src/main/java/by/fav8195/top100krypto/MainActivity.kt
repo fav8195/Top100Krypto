@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         //инициализация межстраничного баннера
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-4333726404613823/7147934847"
+        mInterstitialAd.adUnitId = "ca-app-pub-4333726404613823/7147934847"//"ca-app-pub-3940256099942544/1033173712"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
     }
 
