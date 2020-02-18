@@ -1,12 +1,12 @@
-package by.fav8195.top100krypto
+package by.fav8195.top100krypto.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import by.fav8195.top100krypto.activities.AboutActivity
-import by.fav8195.top100krypto.fragments.CurrenciesListFragment
+import by.fav8195.top100krypto.R
+//import android.support.v7.app.AppCompatActivity //бажит
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 
@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         mInterstitialAd.adUnitId = "ca-app-pub-4333726404613823/7147934847"//"ca-app-pub-3940256099942544/1033173712"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
+
 /*
         //Вызов фрагмента
         //он бажит
@@ -33,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
 */
+
 
 
 
