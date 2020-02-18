@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import by.fav8195.top100krypto.activities.AboutActivity
+import by.fav8195.top100krypto.fragments.CurrenciesListFragment
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 
@@ -21,6 +22,20 @@ class MainActivity : AppCompatActivity() {
         mInterstitialAd = InterstitialAd(this)
         mInterstitialAd.adUnitId = "ca-app-pub-4333726404613823/7147934847"//"ca-app-pub-3940256099942544/1033173712"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
+
+/*
+        //Вызов фрагмента
+        //он бажит
+        if (savedInstanceState == null) {
+            supportFragmentManager
+                .beginTransaction()
+                .add(R.id.container, CurrenciesListFragment(), null)
+                .commit()
+        }
+*/
+
+
+
     }
 
     //Переопределение при создании меню
