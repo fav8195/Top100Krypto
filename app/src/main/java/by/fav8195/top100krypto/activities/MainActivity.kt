@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import by.fav8195.top100krypto.R
+import by.fav8195.top100krypto.fragments.CurrenciesListFragment
 //import android.support.v7.app.AppCompatActivity //бажит
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
 
-/*
+
         //Вызов фрагмента
         //он бажит
         if (savedInstanceState == null) {
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                 .add(R.id.container, CurrenciesListFragment(), null)
                 .commit()
         }
-*/
+
 
 
 
